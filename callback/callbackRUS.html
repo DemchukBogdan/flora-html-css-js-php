@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styleCallback.css">
+    <title>Flora VIP luxery</title>
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+</head>
+
+<body class="callback-container">
+    <div class="container">
+        <header class="callback-header">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <ul class="callback-li">
+
+
+                        <li>
+                            <div class="callback-logo">
+                                <img src="img/logo.png" alt="1" class="media-logo">
+                            </div>
+                        </li>
+
+                        <li>
+
+                            <div class="lan">
+                                <a href="callback.html" class="nav-panell">УКР </a>
+                                /
+                                <a href="callbackEng.html" class="nav-panell">ENG</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+
+
+        <div class="callback-text">
+
+        </div>
+
+
+        <form action="telegram.php" method="POST" class="bord">
+
+            <div class="row d-flex justify-content-center">
+
+                <h2 class="main-title callback-title">Качество сервиса</h2>
+            </div>
+
+
+            <div class="row">
+
+                <div class="d-flex justify-content-center">
+
+                    <div class="rating-area">
+                        <input type="radio" id="star-5" name="field" value="5" <?php echo checked($field, 5); ?>
+                        <label for="star-5" title="Оценка «5»"></label>
+                        <input type="radio" id="star-4" name="field" value="4" <?php echo checked($field, 4); ?>
+                        <label for="star-4" title="Оценка «4»"></label>
+                        <input type="radio" id="star-3" name="field" value="3" <?php echo checked($field, 3); ?>
+                        <label for="star-3" title="Оценка «3»"></label>
+                        <input type="radio" id="star-2" name="field" value="2" <?php echo checked($field, 2); ?>
+                        <label for="star-2" title="Оценка «2»"></label>
+                        <input type="radio" id="star-1" name="field" value="1" <?php echo checked($field, 1); ?>
+                        <label for="star-1" title="Оценка «1»"></label>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="row d-flex justify-content-center">
+
+                <h2 class="main-title callback-title">Обслуживание</h2>
+            </div>
+
+
+            <div class="row">
+
+                <div class="d-flex justify-content-center">
+
+                    <div class="rating-area2">
+                        <input type="radio" id="star-55" name="field2" value="5" <?php echo checked($field2, 5); ?>
+                        <label for="star-55" title="Оценка «5»"></label>
+                        <input type="radio" id="star-44" name="field2" value="4" <?php echo checked($field2, 4); ?>
+                        <label for="star-44" title="Оценка «4»"></label>
+                        <input type="radio" id="star-33" name="field2" value="3" <?php echo checked($field2, 3); ?>
+                        <label for="star-33" title="Оценка «3»"></label>
+                        <input type="radio" id="star-22" name="field2" value="2" <?php echo checked($field2, 2); ?>
+                        <label for="star-22" title="Оценка «2»"></label>
+                        <input type="radio" id="star-11" name="field2" value="1" <?php echo checked($field2, 1); ?>
+                        <label for="star-11" title="Оценка «1»"></label>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="row d-flex justify-content-center">
+
+                <h2 class="main-title callback-title">Ассортимент</h2>
+            </div>
+
+
+            <div class="row">
+
+                <div class="d-flex justify-content-center">
+                    <div class="rating-area3">
+                        <input type="radio" id="star-555" name="field3" value="5" <?php echo checked($field3, 5); ?>
+                        <label for="star-555" title="Оценка «5»"></label>
+                        <input type="radio" id="star-444" name="field3" value="4" <?php echo checked($field3, 4); ?>
+                        <label for="star-444" title="Оценка «4»"></label>
+                        <input type="radio" id="star-333" name="field3" value="3" <?php echo checked($field3, 3); ?>
+                        <label for="star-333" title="Оценка «3»"></label>
+                        <input type="radio" id="star-222" name="field3" value="2" <?php echo checked($field3, 2); ?>
+                        <label for="star-222" title="Оценка «2»"></label>
+                        <input type="radio" id="star-111" name="field3" value="1" <?php echo checked($field3, 1); ?>
+                        <label for="star-111" title="Оценка «1»"></label>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="row d-flex justify-content-center">
+
+                <h2 class="main-title callback-title">Общее впечатление</h2>
+            </div>
+
+
+            <div class="row">
+
+                <div class="d-flex justify-content-center">
+                    <div class="rating-area3">
+                        <input type="radio" id="star-5555" name="field4" value="5" <?php echo checked($field4, 5); ?>
+                        <label for="star-5555" title="Оценка «5»"></label>
+                        <input type="radio" id="star-4444" name="field4" value="4" <?php echo checked($field4, 4); ?>
+                        <label for="star-4444" title="Оценка «4»"></label>
+                        <input type="radio" id="star-3333" name="field4" value="3" <?php echo checked($field4, 3); ?>
+                        <label for="star-3333" title="Оценка «3»"></label>
+                        <input type="radio" id="star-2222" name="field4" value="2" <?php echo checked($field4, 2); ?>
+                        <label for="star-2222" title="Оценка «2»"></label>
+                        <input type="radio" id="star-1111" name="field4" value="1" <?php echo checked($field4, 1); ?>
+                        <label for="star-1111" title="Оценка «1»"></label>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="row d-flex justify-content-center">
+
+                <h2 class="main-title callback-title">Насколько вероятно, что Вы посоветуете нас друзьям?</h2>
+            </div>
+
+            <div class="row ">
+                <div class="d-flex justify-content-center">
+
+
+                    <div class="radio_buttons">
+                        <div>
+                            <input type="radio" name="field5" id="radio1" value="1" <?php echo checked($field5, 1); ?>
+                            <label for="radio1">1</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="field5" id="radio2" value="2" <?php echo checked($field5, 2); ?>
+                            <label for="radio2">2</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="field5" id="radio3" value="3" <?php echo checked($field5, 3); ?>
+                            <label for="radio3">3</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="field5" id="radio4" value="4" <?php echo checked($field5, 4); ?>
+                            <label for="radio4">4</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="field5" id="radio5" value="5" <?php echo checked($field5, 5); ?>
+                            <label for="radio5">5</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="field5" id="radio6" value="6" <?php echo checked($field5, 6); ?>
+                            <label for="radio6">6</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="field5" id="radio7" value="7" <?php echo checked($field5, 7); ?>
+                            <label for="radio7">7</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="field5" id="radio8" value="8" <?php echo checked($field5, 8); ?>
+                            <label for="radio8">8</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="field5" id="radio9" value="9" <?php echo checked($field5, 9); ?>
+                            <label for="radio9">9</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="field5" id="radio10" value="10" <?php echo checked($field5, 10);
+                                ?>
+                            <label for="radio10">10</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row d-flex justify-content-center">
+
+                <button type="submit" class="btn btn-flora1">Отправить</button>
+            </div>
+        </form>
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

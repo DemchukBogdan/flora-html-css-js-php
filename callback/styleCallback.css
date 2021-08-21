@@ -1,0 +1,299 @@
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin-left: -20px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+
+
+.rating-area2 {
+	overflow: hidden;
+	width: 265px;
+	margin-left: -20px;
+}
+.rating-area2:not(:checked) > input {
+	display: none;
+}
+.rating-area2:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area2:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area2 > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area2:not(:checked) > label:hover,
+.rating-area2:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area2 > input:checked + label:hover,
+.rating-area2 > input:checked + label:hover ~ label,
+.rating-area2 > input:checked ~ label:hover,
+.rating-area2 > input:checked ~ label:hover ~ label,
+.rating-area2 > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area2 > label:active {
+	position: relative;
+}
+
+
+
+
+.rating-area3 {
+	overflow: hidden;
+	width: 265px;
+	margin-left: -20px;
+	
+}
+.rating-area3:not(:checked) > input {
+	display: none;
+}
+.rating-area3:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area3:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area3 > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area3:not(:checked) > label:hover,
+.rating-area3:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area3 > input:checked + label:hover,
+.rating-area3 > input:checked + label:hover ~ label,
+.rating-area3 > input:checked ~ label:hover,
+.rating-area3 > input:checked ~ label:hover ~ label,
+.rating-area3 > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area3 > label:active {
+	position: relative;
+}
+
+
+
+
+
+body{
+	overflow: hidden;
+	background-color: #1a1a18;
+}
+
+.callback-li{
+	display: flex;
+	padding-left: 0;
+	width: 600px;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+
+
+.callback-header{
+	margin-bottom: 5px;
+	background-color: #1a1a18;
+	padding-bottom: 10px;
+	
+}
+
+.btn-flora1{
+	margin-bottom: 10px;
+}
+.callback-title{
+	margin-top: 10px;
+	text-align: center;
+	padding-left: 25px;
+	font-size: 30px;
+	
+}
+
+.lan{
+	margin-top: 30px;
+	color: #fff;
+	margin-left: 300px;
+}
+
+.radio_buttons {
+   margin-top: 10px;
+    font: 14px Tahoma;
+	
+}
+.radio_buttons div {
+    float: left;
+}
+.radio_buttons input {
+    position: absolute;
+    left: -9999px;
+}
+.radio_buttons label {
+    display: block;
+    margin: 0 0 0 -1px;
+    padding: 10px 12px;
+    border: 1px solid #82236d;
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .12);
+    cursor: pointer;
+}
+.radio_buttons input:checked + label {
+    background: #82236d;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, .2);
+}
+.radio_buttons div:first-child label {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.radio_buttons div:last-child label {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.bord{
+	border: solid 2px #82236d;
+}
+
+
+
+@media (max-width: 1024px){
+	.callback-title{
+		margin-top: 0px;
+		text-align: center;
+		padding-left: 25px;
+		font-size: 25px;
+	}
+}
+
+
+@media (max-width: 768px){
+	.callback-title{
+		margin-top: 20px;
+		text-align: center;
+		padding-left: 25px;
+		font-size: 25px;
+	}
+	.lan {
+		margin-top: 30px;
+		color: #fff;
+		margin-left: 300px;
+	}
+}
+
+@media (max-width: 500px){
+	.lan {
+		margin-top: 25px;
+		color: #fff;
+		margin-left: 200px;
+	}
+	.callback-title{
+		margin-top: 20px;
+		text-align: center;
+		padding-left: 25px;
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.btn-flora1 {
+		height: 40px;
+		width: 225px;
+		font-size: 10px;
+		padding-top: 4px;
+		margin-top: 20px;
+	}
+
+}
+
+@media (max-width: 375px){
+	.btn-flora1 {
+		height: 40px;
+		width: 225px;
+		font-size: 10px;
+		padding-top: 4px;
+		margin-top: 20px;
+	}
+	.callback-title{
+		margin-top: 10px;
+		text-align: center;
+		padding-left: 25px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+}
+
+@media (max-width: 360px){
+	.callback-header{
+		margin-top: 40px;
+	}
+	.lan {
+		margin-top: 15px;
+		color: #fff;
+		margin-left: 150px;
+	}
+	.radio_buttons label {
+		display: block;
+		margin: 0 0 0 -1px;
+		padding: 5px 7px;
+		border: 1px solid #82236d;
+		background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .12);
+		cursor: pointer;
+	}
+}
